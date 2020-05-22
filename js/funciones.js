@@ -11,3 +11,9 @@ var marcasCoches = ["Ferrari", "Fiat", "Smart", "Porsche", "Citroen", "Tesla", "
 
 // Creo una variable con los nombres de los 10 empleados que recibirán un coche.
 var duenyosCoches = ["David", "Brian", "Laura", "Cristian", "Lola", "Estefanía", "Cristina", "Manuel", "Leonardo", "Ana"];
+
+// Creo el constructor del coche, que tendrá las marcas de los coches y sus dueños.
+function coche(marcasCoches, duenyosCoches) {
+    this.marcasCoches = marcasCoches;
+    this.duenyosCoches = duenyosCoches
+}
