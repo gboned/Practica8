@@ -31,3 +31,6 @@ function generadorCoches(){
         console.log(coches);
     }
 }
+
+// Llamo a la función generadorCoches() para mostrar la lista de coches y su dueño por consola directamente al abrir la página.
+generadorCoches();
